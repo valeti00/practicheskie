@@ -1,0 +1,3 @@
+﻿  zadacha18.cpp
+D:\КФУ\программирование\zadacha18\zadacha18.cpp(16,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  zadacha18.vcxproj -> D:\КФУ\программирование\zadacha18\Debug\zadacha18.exe
