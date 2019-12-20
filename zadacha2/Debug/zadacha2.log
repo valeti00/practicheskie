@@ -1,0 +1,3 @@
+﻿  zadacha2.cpp
+D:\КФУ\программирование\zadacha2\zadacha2.cpp(8,15): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+  zadacha2.vcxproj -> D:\КФУ\программирование\zadacha2\Debug\zadacha2.exe
