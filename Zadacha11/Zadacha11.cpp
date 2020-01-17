@@ -4,21 +4,21 @@
 #include <iostream>
 using namespace std;
 
-// объявление функции нахождения n!
-void faktorial(int numb)// заголовок функции
+
+void faktorial(int numb)
 {
-	int rezult = 1; // инициализируем переменную rezult значением 1
-	for (int i = 1; i <= numb; i++) // цикл вычисления значения n!
-		rezult *= i; // накапливаем произведение в переменной rezult
-	cout << numb <<"! = " << rezult << endl; // печать значения n!
+	int rezult = 1; 
+	for (int i = 1; i <= numb; i++) 
+		rezult *= i; 
+	cout << numb <<"! = " << rezult << endl; 
 }
 
 int main(int argc, char* argv[])
 {
-	int digit; // переменная для хранения значения n!
+	int digit; 
 	cout << "Enter number: ";
 	cin >> digit;
-	faktorial(digit);// запуск функции нахождения факториала
+	faktorial(digit);
 	system("pause");
 	return 0;
 }
