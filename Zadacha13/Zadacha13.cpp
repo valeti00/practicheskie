@@ -1,17 +1,14 @@
-﻿
 #include <iostream>
 using namespace std;
 
 int main()
 {
-	int c = 0;
-	long long a, x = 1;
-	cin >> a;
-	while (x <= a)
+	int x, res, n;
+	cin >> n;
+	for (res = 0, x = 1; x <= n; res++)
 	{
-		if (x <= a)
-			c++;
+		
 		x *= 2;
 	}
-	cout << c;
+	cout << res;
 }
